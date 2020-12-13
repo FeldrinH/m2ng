@@ -2257,6 +2257,7 @@ shape = SubResource( 194 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 0.683857, -0.564819, 0.461864, 0.000744455, 0.633564, 0.77369, -0.729616, -0.52875, 0.433688, 33.5664, 3.44144, -18.367 )
+light_energy = 1.7
 shadow_enabled = true
 
 [editable path="Linn"]
