@@ -48,8 +48,6 @@ func _physics_process(delta):
 		velocity.y = JUMP_SPEED
 	
 	velocity = move_and_slide(velocity, Vector3.UP, true)
-	
-	print(velocity, velocity.length())
 
 func _unhandled_input(event):
 	if event is InputEventMouseMotion and Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
